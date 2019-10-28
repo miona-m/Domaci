@@ -1,0 +1,113 @@
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 35px;
+    background-color: #011F36;
+    margin-top: 10px;
+}
+
+
+nav :hover {
+     color: #D1265D;
+ }
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 700px;
+}
+
+li {
+    color: lightgoldenrodyellow;
+    display: inline;
+    line-height: 40px;
+    padding: 20px;
+}
+.header {
+    width: 100%;
+    height: 400px;
+    background-image: url(https://i.imgur.com/PaqkNyA.jpg);
+}
+
+.header img {
+    width: 200px;
+    height: 200px;
+    margin-left: 525px;
+    margin-top: 60px;
+}
+
+h1 {
+    font-family: fantasy;
+    color: #f4eacb;
+    margin-left: 70px;
+    font-size: 110px
+}
+
+body {
+    background-color: #011F36;
+}
+
+h2 {
+    font-family: fantasy;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 300px;
+    color:#D1265D
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f4eacb;
+    margin: 10px;
+    padding: 4px;
+    font-size: 22px;
+}
+
+h3 {
+    font-family: fantasy;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 300px;
+    color:#D1265D
+}
+
+footer {
+    width: 100%;
+    height: 260px;
+    background-color: lightgoldenrodyellow;
+}
+
+h4 {
+    font-family: fantasy;
+    font-size: 50px;
+    margin-left: 1050px;
+    margin-top: 300px;
+    color:#D1265D
+}
+
+footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #011F36;
+    font-size: 20px;
+    margin-left: 850px;
+    text-align: right;
+}
+
+.slikaport1 {
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+}
+.slikaport2 {
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+}
+.slikaport3 {
+    width: 350px;
+    height: 350px;
+    padding: 30px;
+}

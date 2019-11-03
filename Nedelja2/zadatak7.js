@@ -5,4 +5,4 @@ for (var i=1; i<=n; i++) {
           red += '#';
       }
       console.log(red);
-    }
+}

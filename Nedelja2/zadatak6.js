@@ -12,3 +12,18 @@ for (var n=1; n<=100; n++) {
         console.log(n);
     }
 }
+
+
+for(let n=1; n<=100; n++) {
+    let ispis = '';
+    if (n%3==0)
+     ispis+='Fizz';
+    if (n%5==0)
+     ispis+='Buzz';
+    if (n%7==0)
+     ispis+='Zazz';
+    if (ispis=='')
+     ispis=n;
+    console.log(ispis)
+
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js" defer></script> 
+    <title>Kalkulator prihoda i rashoda</title>
+</head>
+<body>
+    <section id="top-section">
+        <div class="budget-info">
+        Budžet u <span class="month-info">novebru 2019</span>:
+    </div>
+    
+    <div id="budget-value"></div>
+
+    <section id="top-income">
+        <div class="income">Prihod (RSD)</div>
+        <div id="income-value"></div>
+    </section>
+    <section id="top-expence">
+        <div class="expence">Rashod (RSD)</div>
+        <div id="expence-value"></div>
+    </div>
+    </section>
+
+<section id="bottom-section">
+    <div id="selection-container">
+     <select name="source" id="select-source">
+         <option value="+">Prihod</option>
+         <option value="-">Rashod</option>
+        </select>
+        <input type="text" class="input" id="descript" placeholder="Opis"/>
+        <input type="number" class="input" id="amount" placeholder="Iznos"/>
+        <button id="submit-btn">SUBMIT</button>
+    </div>
+</section>
+<section id="income-container">
+    <div id="list-of-incomes">
+        <h2 id="incomes-title">Prihodi</h2>
+        <div id="income-list"></div>
+    </div>
+</section>
+<section id="expence-container">
+    <div id="list-of-expences">
+        <h2 id="expences-title">Rashodi</h2>
+        <div id="expence-list"></div>
+    </div>
+</section>
+
+
+</html>

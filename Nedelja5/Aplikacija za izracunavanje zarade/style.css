@@ -1,0 +1,171 @@
+#top-section{
+    background-color:rgb(251,250,245) ;
+}
+
+.budget-info{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#budget-value{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+
+#top-income{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:25px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(239,242,221);
+    margin:auto auto;
+    margin-bottom:15px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(81,99,101);
+    width: 250px;
+    padding: 5px;
+    color:rgb(81,99,101);
+}
+
+#top-expence{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:25px;
+    text-align: center;
+    font-weight: bold;
+    background-color:  rgb(81,99,101);
+    margin:auto auto;
+    margin-bottom: 30px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(239,242,221);
+    width: 250px;
+    padding: 5px;
+    color:rgb(239,242,221);
+}
+
+
+#bottom-section{
+    background-color: rgb(251,250,245);
+    padding: 20px ;
+}
+
+#selection-container{
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(251,250,245);
+
+}
+
+
+#descript{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+    color:rgb(53,72,102);
+    font-weight: bold;
+    width: 500px; 
+    background-color:rgb(189,215,214);
+    border: 1px solid rgb(127,157,157);
+}
+
+#amount{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+    color:rgb(53,72,102);
+    font-weight: bold;
+    width: 200px; 
+    background-color:rgb(189,215,214);
+    border: 1px solid rgb(53,72,102);
+    
+}
+
+#submit-btn{
+    display:inline-block;
+    padding:0.46em 1.6em;
+    border:0.1em solid rgb(238,107,97);
+    margin:0 0.2em 0.2em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:bolder;
+    color:rgb(238,107,97);
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    background-color:rgb(239,242,221);
+    text-align:center;
+    transition: all 0.15s;
+    cursor: pointer;
+    }
+
+#submit-btn:hover{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color:rgb(239,242,221);
+    border-color: rgb(239,242,221);
+    background-color:rgb(238,107,97);
+}
+
+#select-source{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+    width: 100px; 
+    background-color:rgb(189,215,214);
+    border: 1px solid rgb(53,72,102);
+    color: rgb(53,72,102);
+    font-weight: bold;
+}
+
+#income-container{
+    float:left;
+    height: 600px;
+    width:50%;
+    background-color:rgb(239,242,221);
+    color:rgb(81,99,101);
+}
+#expence-container{
+    float:left;
+    background-color:rgb(81,99,101);
+    height: 600px;
+    width:50%;
+    color: rgb(239,242,221);
+}
+#incomes-title{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 50px;
+    font-size: 30px;
+    color: rgb(81,99,101)
+}
+
+#expences-title{
+    margin-left: 50px ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color:rgb(239,242,221)
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    text-indent: 8px;
+}
+
+.task-remove-btn{
+    float: right;
+    margin-right: 8px;
+    position: relative;
+    border: 1px solid rgb(238,107,97);
+    border-radius: 5%;
+    ;
+    color: rgb(238,107,97);
+    padding: 1px;
+    cursor: pointer;
+  }
+  .task-remove-btn:hover{
+    color: rgb(239,242,221);
+    background-color:rgb(238,107,97);
+  }

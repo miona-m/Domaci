@@ -1,8 +1,7 @@
 1. Zašto koristimo JSON?
 
 - JSON je format za memorisanje razmenu podataka koji se temelji na sintaksi JavaScript objekata. 
-Predstavlja vrlo pogodan format za razmenjivanje podataka između klijenta i servera,
-zato što je čoveku lak za razumevanje, a sa druge strane je jednostavan za obradu i parsiranje. 
+Predstavlja vrlo pogodan format za razmenjivanje podataka između klijenta i servera, zato što je čoveku lak za razumevanje, a sa druge strane je jednostavan za obradu i parsiranje. 
 Pošto je JSON tekst, mi možemo JavaScript objekte konvetovati u JSON tekst i poslati ih serveru ( ili sačuvati u lokalni fajl). Takođe, možemo konvertovati JSON tekst primljen od servera u JavaScript objekat.
 
 
@@ -11,7 +10,8 @@ Pošto je JSON tekst, mi možemo JavaScript objekte konvetovati u JSON tekst i p
 
 - Moduli pre svega omogućavaju da nam kodovi budu pregledni i laki za održavanje. 
 Glavna ideja iza modula je omogućavanje importovanja i eksportovanje delova koda iz različitih fajlova
-u neke druge fajlove. Ovo nam omogućava da razlomimo kod u manje fajlove, što čini kod čitljivjim i razumljivijim. 
+u neke druge fajlove. Ovo nam omogućava da razlomimo kod u manje, enkapsulirane, nezavisne delove koda, odnosno module, što čini kod čitljivjim i razumljivijim. Oni omogućavaju i lakše kontrolisanje domena promenljivih, kao što i sprečavaju zatrpavanje globalnog domena. Daju mogućnost rada na istom projektu više različitih timova ili programera koji rade odvojene manje zadatke. Ukoliko je kod kvalitetno podeljen na celine, pojedine celine biće moguće upotrebiti u nekom drugom kontekstu. 
+
 
 
 3. Šta je ECMAScript? 
